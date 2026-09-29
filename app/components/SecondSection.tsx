@@ -4,24 +4,26 @@ const SecondSection = () => {
     <section className="my-5 text-center max-w-7xl mx-auto w-full
     px-6">
        <div className="mb-5">
-         <h2 className="text-xl text-[#4D4D4D] font-semibold">
+         <h2 className="text-xl text-[#4D4D4D] font-semibold
+         dark:text-gray-300">
           Manage your entire community in a single system
          </h2>
-         <p className="text-sm text-[#717171] mt-2">
+         <p className="text-sm text-[#717171] mt-2
+         dark:text-gray-300">
            Who is Nextcent suitable for?
          </p>
         </div>
         <div className="grid gap-5 grid-cols-2 md:flex
         items-center md:justify-between">
           <div className="py-3 sm:py-5 px-4 sm:px-6 bg-white
-          shadow rounded-lg text-center">
+          shadow rounded-lg text-center dark:bg-neutral-800/60">
               <svg width="65" height="56" viewBox="0 0 65 56"
               fill="none" xmlns="http://www.w3.org/2000/svg"
               className="mx-auto">
                 <path d="M65 38C65 47.9411 56.9411 56 47 56L20
                 56C17.2386 56 15 53.7614 15 51L15 17C15 11.4772
                 19.4772 7 25 7L60 7C62.7614 7 65 9.23858 65
-                12L65 38Z" fill="#E8F5E9"/>
+                12L65 38Z" fill="#E8F5E9" className="dark:hidden"/>
                 <path d="M23.99 10C20.4187 10 17.5114 12.9339
                 17.5114 16.5203C17.5114 18.7892 18.6765 20.7925
                 20.4358 21.9602C18.3109 22.6706 16.4723 23.9985
@@ -87,24 +89,25 @@ const SecondSection = () => {
                 fill="#103E13"/>
               </svg>
               <h3 className="text-lg font-bold my-3
-              text-[#4D4D4D]">
+              text-[#4D4D4D] dark:text-gray-300">
                 Membership Organisations
               </h3>
-              <p className="text-[#717171] text-sm">
+              <p className="text-[#717171] text-sm
+              dark:text-gray-300">
                 Our membership management software provides
                 full automation of membership renewals and
                 payments
               </p>
           </div>
           <div className="py-3 sm:py-5 px-4 sm:px-6 bg-white
-          shadow rounded-lg text-center">
+          shadow rounded-lg text-center dark:bg-neutral-800/60">
              <svg width="65" height="56" viewBox="0 0 65 56"
               fill="none" xmlns="http://www.w3.org/2000/svg"
               className="mx-auto">
                 <path d="M65 38C65 47.9411 56.9411 56 47 56L20
                 56C17.2386 56 15 53.7614 15 51L15 17C15 11.4772
                 19.4772 7 25 7L60 7C62.7614 7 65 9.23858 65
-                12L65 38Z" fill="#E8F5E9"/>
+                12L65 38Z" fill="#E8F5E9" className="dark:hidden"/>
                 <path d="M26.9164 19.0109C26.6044 19.0109 26.3507
                 18.7576 26.3507 18.4452V17.4839C26.3507 17.1719
                 26.604 16.9182 26.9164 16.9182C27.2284 16.9182
@@ -222,24 +225,25 @@ const SecondSection = () => {
                 fill="#103E13"/>
              </svg>
              <h3 className="text-lg font-bold my-3
-             text-[#4D4D4D]">
+             text-[#4D4D4D] dark:text-gray-300">
                 National Associations
              </h3>
-             <p className="text-[#717171] text-sm">
+             <p className="text-[#717171] text-sm
+             dark:text-gray-300">
               Our membership management software provides
               full automation of membership renewals and
               payments
              </p>
           </div>
           <div className="py-3 sm:py-5 px-4 sm:px-6 bg-white
-          shadow rounded-lg text-center">
+          shadow rounded-lg text-center dark:bg-neutral-800/60">
              <svg width="65" height="56" viewBox="0 0 65 56" 
               fill="none" xmlns="http://www.w3.org/2000/svg"
               className="mx-auto">
                 <path d="M65 38C65 47.9411 56.9411 56 47 56L20
                 56C17.2386 56 15 53.7614 15 51L15 17C15 11.4772
                 19.4772 7 25 7L60 7C62.7614 7 65 9.23858 65
-                12L65 38Z" fill="#E8F5E9"/>
+                12L65 38Z" fill="#E8F5E9" className="dark:hidden"/>
                 <path d="M28.3117 23.6446C28.0709 23.6446
                 27.8473 23.5784 27.6487 23.4719V23.4748C27.6487
                 23.8536 27.5014 24.2094 27.2343 24.4758C26.9671
@@ -421,10 +425,11 @@ const SecondSection = () => {
                31.4892L38.6091 31.4892Z" fill="#103E13"/>
              </svg>
              <h3 className="text-lg font-bold my-3
-             text-[#4D4D4D]">
+             text-[#4D4D4D] dark:text-gray-300">
                 Clubs And Groups
              </h3>
-             <p className="text-[#717171] text-sm">
+             <p className="text-[#717171] text-sm
+             dark:text-gray-300">
                 Our membership management software provides
                 full automation of membership renewals and
                 payments

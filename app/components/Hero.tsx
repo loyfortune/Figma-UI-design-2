@@ -2,7 +2,8 @@
 const Hero = () => {
 
   return (
-    <section className="bg-[#F5F7FA] px-8 py-4 w-full">
+    <section className="bg-[#F5F7FA] px-8 py-4 w-full
+    dark:bg-gray-800">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:justify-between
         md:flex-row-reverse items-center gap-8">
@@ -291,16 +292,18 @@ const Hero = () => {
        </div>
        <div className="w-full">
          <h1 className="text-4xl font-semibold leading-12
-         text-[#4D4D4D]">
+         text-[#4D4D4D] dark:text-gray-300">
           Lessons and insights <span className="text-[#4CAF4F]">
           from 8 years</span>
          </h1>
-         <p className="text-[#717171] my-3 text-sm">
+         <p className="text-[#717171] my-3 text-sm
+         dark:text-gray-300">
             Where to grow your business as a photographer:
             site or social media?
          </p>
          <button className="text-white bg-[#4CAF4F]
-         rounded-sm text-sm py-3.5 px-5 cursor-pointer">
+         rounded-sm text-sm py-3.5 px-5 cursor-pointer
+         dark:bg-green-700">
           Register
          </button>
        </div>
@@ -308,11 +311,14 @@ const Hero = () => {
        <div className="flex items-center gap-1 justify-center
        mt-5">
         <button className="w-2.5 h-2.5 bg-[#4CAF4F]
-        rounded-full text-transparent">.</button>
+        rounded-full text-transparent dark:bg-green-600">.
+        </button>
         <button className="w-2.5 h-2.5 bg-[#4caf4f48]
-        rounded-full text-transparent">.</button>
+        rounded-full text-transparent dark:bg-green-600/30">.
+        </button>
         <button className="w-2.5 h-2.5 bg-[#4caf4f48]
-        rounded-full text-transparent">.</button>
+        rounded-full text-transparent dark:bg-green-600/30">.
+        </button>
        </div>
       </div>
     </section>

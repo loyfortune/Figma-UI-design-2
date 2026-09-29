@@ -9,7 +9,7 @@ import ThirdSection from "./ThirdSection"
 
 const Main = () => {
   return (
-    <main className="overflow-hidden min-h-full">
+    <main className="overflow-hidden min-h-full dark:bg-gray-900">
       <FirstSection /> 
       <SecondSection />
       <ThirdSection />

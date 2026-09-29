@@ -5,7 +5,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 const SixthSection = () => {
   return (
-    <section className="bg-[#F5F7FA] p-6">
+    <section className="bg-[#F5F7FA] p-6 dark:bg-gray-800">
        <div className="max-w-7xl mx-auto flex flex-col
        md:flex-row md:items-center md:justify-between gap-6">
           <div className="w-81.5 h-81.5 overflow-hidden
@@ -18,7 +18,8 @@ const SixthSection = () => {
             className="w-full h-full object-cover"/>
           </div>
           <div className="w-full h-full">
-            <p className="text-sm text-[#717171]">
+            <p className="text-sm text-[#717171]
+            dark:text-gray-300">
               Maecenas dignissim justo eget nulla rutrum
               molestie. Maecenas lobortis sem dui, vel rutrum
               risus tincidunt ullamcorper. Proin eu enim metus.
@@ -36,10 +37,12 @@ const SixthSection = () => {
               ac sit amet magna.
             </p>
             <div className="my-5">
-              <h4 className="text-[#4CAF4F] font-semibold mb-3">
+              <h4 className="text-[#4CAF4F] font-semibold mb-3
+              dark:text-green-600">
                Tim Smith
               </h4>
-              <span className="block text-[#88939E] text-sm">
+              <span className="block text-[#88939E] text-sm
+              dark:text-gray-200">
                British Dragon Racing Association
               </span>
             </div>
@@ -138,7 +141,8 @@ const SixthSection = () => {
               </svg>
               </div>
               <Link href={'/'} className="flex items-center
-              gap-3 text-[#4CAF4F] font-semibold">
+              gap-3 text-[#4CAF4F] font-semibold
+              dark:text-green-600">
                 Meet all customers
                 <FiArrowRight />
               </Link>

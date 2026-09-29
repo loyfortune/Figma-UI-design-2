@@ -2,7 +2,8 @@ import { FiDribbble, FiInstagram, FiTwitter, FiYoutube } from "react-icons/fi"
 
 const Footer = () => {
   return (
-    <footer className="py-16 px-8 w-full bg-[#263138]">
+    <footer className="py-16 px-8 w-full bg-[#263138]
+    dark:bg-gray-900">
        <div className=" max-w-2xl lg:max-w-7xl mx-auto
        flex flex-col lg:flex-row gap-10 lg:justify-between">
           <div className="space-y-10">
@@ -83,7 +84,8 @@ const Footer = () => {
               font-semibold">Stay up to date</h3>
               <div className="w-63.75 py-3.5 px-3
               rounded-lg flex items-center
-              justify-between bg-[#475156]">
+              justify-between bg-[#475156]
+              dark:bg-gray-800">
                 <input type="email"
                 className="outline-none bg-transparent
                 text-white text-sm"

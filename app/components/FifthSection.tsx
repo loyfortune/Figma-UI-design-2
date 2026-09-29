@@ -107,10 +107,11 @@ const FifthSection = () => {
         </div>
         <div className="w-full h-full">
             <h3 className="text-2xl md:text-3xl leading-11
-            font-semibold text-[#4D4D4D]">
+            font-semibold text-[#4D4D4D] dark:text-gray-300">
               How to design your site footer like we did
             </h3>
-            <p className="text-sm text-[#717171] my-4">
+            <p className="text-sm text-[#717171] my-4
+            dark:text-gray-300">
              Donec a eros justo. Fusce egestas tristique ultrices.
              Nam tempor, augue nec tincidunt molestie, massa
              nunc varius arcu, at scelerisque elit erat a magna.
@@ -124,7 +125,8 @@ const FifthSection = () => {
              Donec consectetur faucibus ipsum id gravida.
             </p>
             <button className="text-white py-4.5 px-6.5
-            rounded-sm text-sm cursor-pointer bg-[#4CAF4F]">
+            rounded-sm text-sm cursor-pointer bg-[#4CAF4F]
+            dark:bg-green-700">
              Learn More
             </button>
         </div>

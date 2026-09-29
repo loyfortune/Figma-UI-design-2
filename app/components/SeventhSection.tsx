@@ -11,9 +11,10 @@ const SeventhSection = () => {
    max-w-7xl mx-auto h-full">
        <div className="mb-3">
          <h2 className="text-xl text-[#4D4D4D] mb-1
-         font-semibold">Caring is the new marketing
+         font-semibold dark:text-gray-300">Caring is the new marketing
         </h2>
-        <p className="text-sm text-[#717171]">
+        <p className="text-sm text-[#717171]
+        dark:text-gray-300">
           The Nexcent blog is the best place to read about the
           latest membership insights, trends and more. See who&apos;s
           joining the community, read about how our community are
@@ -33,10 +34,12 @@ const SeventhSection = () => {
             className="w-full h-full object-cover"/>
             <div className="absolute -bottom-20 left-[50%]
             translate-x-[-50%] rounded-lg space-y-4 min-w-70.25
-            h-fit bg-[#F5F7FA] shadow shadow-[#ABBED1] p-4">
+            h-fit bg-[#F5F7FA] shadow shadow-[#ABBED1] p-4
+            dark:bg-gray-800 dark:shadow-gray-600">
               <h2 className="text-[#717171] text-lg
-              font-semibold">Creating Streamlined Safeguarding
-              Processes with OneRen</h2>
+              font-semibold dark:text-gray-300">
+               Creating Streamlined Safeguarding
+               Processes with OneRen</h2>
               <Link href={'/'} className="text-[#4CAF4F]
               font-semibold flex items-center justify-center
               gap-2">
@@ -57,10 +60,12 @@ const SeventhSection = () => {
             className="w-full h-full object-cover"/>
             <div className="absolute -bottom-20 left-[50%]
             translate-x-[-50%] rounded-lg space-y-4 min-w-70.25
-            h-fit bg-[#F5F7FA] shadow shadow-[#ABBED1] p-4">
+            h-fit bg-[#F5F7FA] shadow shadow-[#ABBED1] p-4
+            dark:bg-gray-800 dark:shadow-gray-600">
               <h2 className="text-[#717171] text-lg
-              font-semibold">What are your safeguarding
-              responsibilities and how can you manage them?</h2>
+              font-semibold dark:text-gray-300">
+               What are your safeguarding
+               responsibilities and how can you manage them?</h2>
               <Link href={'/'} className="text-[#4CAF4F]
               font-semibold flex items-center justify-center
               gap-2">
@@ -81,10 +86,12 @@ const SeventhSection = () => {
             className="w-full h-full object-cover"/>
             <div className="absolute -bottom-20 left-[50%]
             translate-x-[-50%] rounded-lg space-y-4 min-w-70.25
-            h-fit bg-[#F5F7FA] shadow shadow-[#ABBED1] p-4">
+            h-fit bg-[#F5F7FA] shadow shadow-[#ABBED1] p-4
+            dark:bg-gray-800 dark:shadow-gray-600">
               <h2 className="text-[#717171] text-lg
-              font-semibold">Revamping the Membership Model
-              with Triathlon Australia</h2>
+              font-semibold dark:text-gray-300">
+               Revamping the Membership Model
+               with Triathlon Australia</h2>
               <Link href={'/'} className="text-[#4CAF4F]
               font-semibold flex items-center justify-center
               gap-2">

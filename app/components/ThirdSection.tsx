@@ -135,10 +135,11 @@ const ThirdSection = () => {
        </div>
        <div className="w-fit">
         <h3 className="text-2xl sm:text-3xl text-[#4D4D4D]
-         font-semibold leading-11">
+         font-semibold leading-11 dark:text-gray-300">
             The unseen of spending three years at Pixelgrade
          </h3>
-          <p className="text-sm text-[#717171] mt-3 mb-4">
+          <p className="text-sm text-[#717171] mt-3 mb-4
+          dark:text-gray-300">
             Lorem ipsum dolor sit amet, consectetur adipiscing
             elit. Sed sit amet justo ipsum. Sed accumsan quam
             vitae est varius fringilla. Pellentesque placerat
@@ -148,7 +149,8 @@ const ThirdSection = () => {
             sem. Donec elementum pulvinar odio.
           </p>
           <button className="py-3.5 px-7 bg-[#4CAF4F]
-          rounded-sm text-sm cursor-pointer text-white">
+          rounded-sm text-sm cursor-pointer text-white
+          dark:bg-green-700">
             Learn More
           </button>
        </div>
